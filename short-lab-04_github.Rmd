@@ -1,7 +1,7 @@
 ---
 title: "Short Lab 4"
-author: "INSERT YOUR NAME HERE"
-date: "Due Date Here"
+author: "Sela Wein"
+date: "February 27, 2022"
 output: html_document
 ---
 
@@ -24,11 +24,19 @@ output: html_document
 
 8. If you use a private repository, add me and the grader as collaborators.
 
+```{r}
+library(usethis)
+use_git_config(
+  user.name = "selawein",
+  user.email = "sela.wein@gmail.com"
+)
+```
+
 ## Part 2. Send us your repository
 
 Please type only the link to your repository using the template below. Fill in both the square brackets `[]` and the parentheses `()` with your link.
 
-[YOUR LINK HERE](YOUR LINK HERE)
+[https://github.com/selawein/shortlab4.git](https://github.com/selawein/shortlab4.git)
 
 Here's a checklist of what we should see at the link above:
 
